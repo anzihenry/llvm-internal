@@ -9,7 +9,7 @@ import sphinx_rtd_theme
 # -- Project information
 
 project = 'LLVM Internal'
-copyright = '2021, Henry Tse'
+copyright = '2022, Henry Tse'
 author = 'Henry Tse'
 
 release = '0.1'

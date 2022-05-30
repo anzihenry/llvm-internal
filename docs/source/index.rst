@@ -1,5 +1,5 @@
 Welcome to LLVM!
-===================================
+============================
 
 本书主要主要探讨两个方面：
 1、LLVM编译工具链上不同底层组件的作用以及各个组件的实现原理，同时会对编译器的设计进行深入讨论。
@@ -13,12 +13,9 @@ Contents
 --------
 
 .. toctree::
-   :glob:
+   :maxdepth: 1
    
-   Introduction/*
-         
-   Part I/*
-
-   Part II/*
-   
-   Appendix/*
+   introduction/index
+   part I/index
+   part II/index
+   appendix/index
