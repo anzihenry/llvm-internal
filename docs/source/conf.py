@@ -4,16 +4,16 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
-import sphinx_rtd_theme
-
 # -- Project information
 
 project = 'LLVM Internal'
-copyright = '2022, Henry Tse'
 author = 'Henry Tse'
-
 release = '0.1'
 version = '0.1.0'
+
+import time
+copyright = time.strftime("%Y", time.localtime(time.time())) + ', ' + author
+
 
 # -- General configuration
 
@@ -34,6 +34,8 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
+
+import sphinx_rtd_theme
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
