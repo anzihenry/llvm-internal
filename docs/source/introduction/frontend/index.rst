@@ -7,3 +7,6 @@
    lexer
    parser
    ast
+   ir_generator
+   symbol_table
+   
