@@ -1,4 +1,4 @@
-Frontend
+前端
 ================
 
 .. toctree::
@@ -6,3 +6,4 @@ Frontend
    
    lexer
    parser
+   ast
